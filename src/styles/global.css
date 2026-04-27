@@ -1,12 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: garden --default;
+}
+@plugin "@tailwindcss/typography";
+
 @keyframes shake {
   /* Adjust percentages to account for the delay */
   0%, 29.1%, 100% { transform: translate3d(0, 0, 0); }
-  
+
   /* Original 10% → 3.19% of total duration */
   3.19%, 28.37% {
     transform: translate3d(-1px, 0, 0);
   }
-  
+
   6.38%, 25.18% {
     transform: translate3d(2px, 0, 0);
   }

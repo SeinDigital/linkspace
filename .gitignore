@@ -24,3 +24,7 @@ pnpm-debug.log*
 .idea/
 
 src/config/links.yaml
+
+# AI Helpers
+/.claude
+CLAUDE.md
